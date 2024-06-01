@@ -29,22 +29,6 @@ Make sure you have `libcurl` installed on your system. You can install it using 
   sudo dnf install libcurl-devel
   ```
 
-## Compilation
-
-To compile the code, use `gcc` with the `libcurl` library:
-
-```sh
-gcc -o http_requests main.c -lcurl
-```
-
-## Usage
-
-Run the compiled program:
-
-```sh
-./http_requests
-```
-
 ## Project Structure
 
 - `http.c`: Contains the main function and the HTTP request functions.
