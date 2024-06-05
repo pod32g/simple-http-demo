@@ -1,4 +1,4 @@
-#include "http.c"
+#include "verbs.h"
 
 char* http_get(const char *url, struct curl_slist *headers) {
     return http_request(url, "GET", NULL, headers);
